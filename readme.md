@@ -8,12 +8,7 @@ State of the art solutions [[1](https://paperswithcode.com/task/virtual-try-on)]
 
 Here's an example of using a GAN model from the [HR-VITON paper](https://paperswithcode.com/paper/high-resolution-virtual-try-on-with) with pre-trained weights from the paper's GitHub repository.
 
-| ![Person image from a training dataset](readme_imgs/IMAGE_2023-02-17_125128.jpg) | 
-![Custom cloth image](readme_imgs/IMAGE_2023-02-17_125150.jpg) | ![GAN try-on result](readme_imgs/IMAGE_2023-02-17_125153.jpg) |
-|----------|:-------------:|------:|
-| Person image from a training dataset |  Custom cloth image | GAN try-on result |
-
-| ![Person image from a training dataset](readme_imgs/IMAGE_2023-02-17_125128.jpg)   |      Are      |  Cool |
+| ![Person image from a training dataset](readme_imgs/IMAGE_2023-02-17_125128.jpg)   |      ![Custom cloth image](readme_imgs/IMAGE_2023-02-17_125150.jpg)      |  ![GAN try-on result](readme_imgs/IMAGE_2023-02-17_125153.jpg) |
 |:----------:|:-------------:|:------:|
 | Person image from a training dataset |  Custom cloth image | GAN try-on result |
 
