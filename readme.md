@@ -8,9 +8,15 @@ State of the art solutions [[1](https://paperswithcode.com/task/virtual-try-on)]
 
 Here's an example of using a GAN model from the [HR-VITON paper](https://paperswithcode.com/paper/high-resolution-virtual-try-on-with) with pre-trained weights from the paper's GitHub repository.
 
-| Tables   |      Are      |  Cool |
+| ![Person image from a training dataset](readme_imgs/IMAGE_2023-02-17_125128.jpg)   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
+
+<table>
+  <tr>
+    <td>![Person image from a training dataset](readme_imgs/IMAGE_2023-02-17_125128.jpg)</td>
+  </tr>
+</table>
 
 ![Person image from a training dataset](readme_imgs/IMAGE_2023-02-17_125128.jpg)
 
