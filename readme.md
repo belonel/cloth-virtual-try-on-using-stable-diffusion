@@ -19,8 +19,7 @@ I trained Stable Diffusion Inpainting model on two clothes:
 - [Mango gray Zip-neck cashmere sweater](https://shop.mango.com/gb/men/cardigans-and-sweaters-sweaters/zip-neck-cashmere-sweater_47000550.html?c=95)
 - [BeFree cotton sweatshirt with Christmas print](https://befree.ru/zhenskaya/product/2249207952$D/121)
 
-| ![Diffusion try-on result 1](readme_imgs/showcase_1_(1).jpg)   |      
-![Diffusion try-on result 2](readme_imgs/showcase_2.jpg)      |
+| ![Diffusion try-on result 1](readme_imgs/showcase_1_(1).jpg)   |      ![Diffusion try-on result 2](readme_imgs/showcase_2.jpg)      |
 |:----------:|:-------------:|
 | Diffusion try-on result 1 |  Diffusion try-on result 2 |
 
