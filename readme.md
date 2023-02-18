@@ -1,14 +1,16 @@
-# README
-
-# Using Stable Diffusion model for cloth virtual try-on
+# Cloth virtual try-on using Stable Diffusion
 
 I experimented with training Stable Diffusion image generation model for cloth virtual try on task.
 
-### **Problem**
+### Problem
 
 State of the art solutions [[1](https://paperswithcode.com/task/virtual-try-on)] use GAN architecture and mostly doesn’t seem to work great on an out of the dataset photos.
 
 Here's an example of using a GAN model from the [HR-VITON paper](https://paperswithcode.com/paper/high-resolution-virtual-try-on-with) with pre-trained weights from the paper's GitHub repository.
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
 
 ![Person image from a training dataset](readme_imgs/IMAGE_2023-02-17_125128.jpg)
 
@@ -22,7 +24,7 @@ Custom cloth image
 
 GAN try-on result
 
-### **Diffusion model results**
+### Diffusion model results
 
 I trained Stable Diffusion Inpainting model on two clothes:
 
@@ -39,7 +41,7 @@ Diffusion try-on result 2
 
 The model reproduced the details of a gray sweater very realistically and adjusted the lighting. However, it did not generate the print of the sweatshirt accurately, although it was similar. I could not solve this problem using the current version of Stable Diffusion (2.1).
 
-### Training d**etails**
+### Training details
 
 I used a [dreambooth inpainting](https://github.com/huggingface/diffusers/tree/main/examples/research_projects/dreambooth_inpaint) training script and modified it to apply custom cloth masks and prompts. 
 
@@ -104,7 +106,7 @@ accelerate launch train_dreambooth_inpaint_my_prompts.py \
   --checkpointing_steps=500
 ```
 
-### **Conclusion**
+### Conclusion
 
 Clothes with simple forms and textures work best today, while logos and prints is hard to reproduce correctly with stable diffusion 2.1.
 
