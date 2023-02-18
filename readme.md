@@ -23,7 +23,7 @@ I trained Stable Diffusion Inpainting model on two clothes:
 |:----------:|:-------------:|
 | Diffusion try-on result 1 |  Diffusion try-on result 2 |
 
-The model reproduced the details of a gray sweater very realistically and adjusted the lighting of a photo. However, it did not generate the print of the sweatshirt accurately, although it was similar. I could not solve this problem using the current version of Stable Diffusion (2.1).
+The model accurately reproduced the details of a gray sweater and adjusted the lighting of the photo. However, it did not accurately generate the print of the sweatshirt, though it was close. I couldn't resolve this issue with the current version of Stable Diffusion (2.1).
 
 ### Training details
 
