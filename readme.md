@@ -12,19 +12,6 @@ Here's an example of using a GAN model from the [HR-VITON paper](https://papersw
 |:----------:|:-------------:|:------:|
 | Person image from a training dataset |  Custom cloth image | GAN try-on result |
 
-
-![Person image from a training dataset](readme_imgs/IMAGE_2023-02-17_125128.jpg)
-
-Person image from a training dataset
-
-![Custom cloth image](readme_imgs/IMAGE_2023-02-17_125150.jpg)
-
-Custom cloth image
-
-![GAN try-on result](readme_imgs/IMAGE_2023-02-17_125153.jpg)
-
-GAN try-on result
-
 ### Diffusion model results
 
 I trained Stable Diffusion Inpainting model on two clothes:
@@ -32,13 +19,10 @@ I trained Stable Diffusion Inpainting model on two clothes:
 - [Mango gray Zip-neck cashmere sweater](https://shop.mango.com/gb/men/cardigans-and-sweaters-sweaters/zip-neck-cashmere-sweater_47000550.html?c=95)
 - [BeFree cotton sweatshirt with Christmas print](https://befree.ru/zhenskaya/product/2249207952$D/121)
 
-![Diffusion try-on result 1](readme_imgs/showcase_1_(1).jpg)
-
-Diffusion try-on result 1
-
-![Diffusion try-on result 2](readme_imgs/showcase_2.jpg)
-
-Diffusion try-on result 2
+| ![Diffusion try-on result 1](readme_imgs/showcase_1_(1).jpg)   |      
+![Diffusion try-on result 2](readme_imgs/showcase_2.jpg)      |
+|:----------:|:-------------:|
+| Diffusion try-on result 1 |  Diffusion try-on result 2 |
 
 The model reproduced the details of a gray sweater very realistically and adjusted the lighting. However, it did not generate the print of the sweatshirt accurately, although it was similar. I could not solve this problem using the current version of Stable Diffusion (2.1).
 
@@ -48,35 +32,19 @@ I used a [dreambooth inpainting](https://github.com/huggingface/diffusers/tree/m
 
 I used 1000 training steps, learning rate 5e-6, no regularization images, trained text encoder. 
 
-![Person image](readme_imgs/1_1024_(3).jpg)
-
-Person image
-
-![Hand-drawn person mask](readme_imgs/1_1024_mask_(1).jpg)
-
-Hand-drawn person mask
-
-![Diffusion try-on results, A-pose](readme_imgs/v12_50_inf_steps_pose1-min_(1).png)
-
-Diffusion try-on results, A-pose
+| ![Person image](readme_imgs/1_1024_(3).jpg)   |      ![Hand-drawn person mask](readme_imgs/1_1024_mask_(1).jpg)      |  ![Diffusion try-on results, A-pose](readme_imgs/v12_50_inf_steps_pose1-min_(1).png) |
+|:----------:|:-------------:|:------:|
+| Person image |  Hand-drawn person mask | Diffusion try-on results, A-pose |
 
 As you can imagine, it's pretty inconvenient to hand-draw a mask. So, I came up with a way to generate it automatically; maybe I'll share it later.
 
-![Person Image](readme_imgs/IMAGE_2023-02-17_131011.jpg)
-
-Person Image
-
-![Auto-generated person mask](readme_imgs/2_1024_auto_mask_(2).jpg)
-
-Auto-generated person mask
-
-![Diffusion try-on results, complex pose](readme_imgs/2_hand_drawn_mask_1.jpg)
-
-Diffusion try-on results, complex pose
+| ![Person Image](readme_imgs/IMAGE_2023-02-17_131011.jpg)   |      ![Auto-generated person mask](readme_imgs/2_1024_auto_mask_(2).jpg)      |  ![Diffusion try-on results, complex pose](readme_imgs/2_hand_drawn_mask_1.jpg) |
+|----------|:-------------:|------:|
+| Person Image |  Auto-generated person mask | Diffusion try-on results, complex pose |
 
 The model was able to generate clothes correctly even in a complex pose. 
 
-### **How to run training yourself**
+### How to run training yourself
 
 Check [dreambooth](https://github.com/huggingface/diffusers/tree/main/examples/research_projects/dreambooth_inpaint) repo for a reference. 
 
