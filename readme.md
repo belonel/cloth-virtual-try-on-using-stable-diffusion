@@ -76,7 +76,7 @@ accelerate launch train_dreambooth_inpaint_my_prompts.py \
 
 ## Conclusion
 
-Clothes with simple forms and textures work best today, while logos and prints is hard to reproduce correctly with stable diffusion 2.1.
+Clothes with simple forms and textures work best today, while logos and prints are very hard to reproduce correctly with stable diffusion 2.1.
 
 Despite these limitations, generative models will definitely unlock photorealistic try-on! 
 
