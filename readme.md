@@ -6,7 +6,7 @@ I experimented with training Stable Diffusion image generation model for cloth v
 
 State of the art solutions [[1](https://paperswithcode.com/task/virtual-try-on)] use GAN architecture and mostly doesn’t seem to work great on an out of the dataset photos.
 
-Here's an example of using a GAN model from the [HR-VITON paper](https://paperswithcode.com/paper/high-resolution-virtual-try-on-with) with pre-trained weights from the paper's GitHub repository.
+Here's an example of using a GAN model from [HR-VITON paper](https://paperswithcode.com/paper/high-resolution-virtual-try-on-with) with pre-trained weights from the paper's GitHub repository.
 
 | ![Person image from a training dataset](readme_imgs/IMAGE_2023-02-17_125128.jpg)   |      ![Custom cloth image](readme_imgs/IMAGE_2023-02-17_125150.jpg)      |  ![GAN try-on result](readme_imgs/IMAGE_2023-02-17_125153.jpg) |
 |:----------:|:-------------:|:------:|
@@ -47,7 +47,7 @@ The model was able to generate clothes correctly even in a complex pose.
 
 Check [dreambooth](https://github.com/huggingface/diffusers/tree/main/examples/research_projects/dreambooth_inpaint) repo for a reference. 
 
-Install dependencies with `pip install requirements.txt`
+Install dependencies with `pip install -r requirements.txt`
 
 Create cloth images directory and masks directory with images.  
 
